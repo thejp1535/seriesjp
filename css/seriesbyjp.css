@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Ruwudu:wght@400;500;600;700 & display=swap');
+
+html{
+    box-sizing: border-box;
+}
+:root{
+    --primer-color: #000000;
+    --segundo-color: #F5B553;
+    --tercer-color: #F7F7F7;
+    --cuarto-color: #854836;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', sans-serif;
+}
+p,a,li,label,input{
+    font-family: 'Ruwudu', serif;
+}
+header{
+    position: relative;
+    width: 100%;
+}
+header nav{
+    background: #F7F7F7;
+    border: 1px solid #F5B553
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    background: #000000;
+}
+.fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin: 15px 33px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #F5B553;
+    font-weight: 500;
+    transition: .4s;
+    padding: 5px;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: var(--tercer-color-);
+    border-bottom: #F7F7F7;
+}
+header #hero{
+    width: 100%;
+    background: url(../img/pareja\ serie.jpg);
+    background-size: cover;
+    padding: 120px 0 70px;
+    border: 1px solid #F5B553;
+}
+#hero h1{
+    color:#F5B553;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+#hero p{
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+button{
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    position: relative;
+
+}
+#series{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #F5B553;
+}
+#series h2{
+    font-size: var(--primer-color);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#series p{
+    font-size: var(--tercer-color);
+}
+#series .fila{
+    width: 10%;
+    min-width: 1000px;
+    display: flex;
+    margin: 30px auto;
+    justify-content:space-between;
+   position: relative;
+}
+#series .fila .genero{
+    position: relative;
+
+}
+.fila .genero img{
+    transition: .6s;
+}
+.fila .genero img:hover{
+    border-radius: 30%;
+}
+
+
+form .fila input{
+    width: 50%;
+    padding: 8px 12px;
+    font-size:large;
+    margin: 10px 20px;
+}
+form .fila select{
+    width: 50%;
+    padding: 8px 12px;
+    font-size:large;
+    margin: 10px 20px;
+}
+.genero{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--tercer-color);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.genero h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--primer-color);
+}
+
+.genero p {
+    font-size: 16px;
+    color: var(--primer-color);
+}
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
+    color: var(--segundo-color);
+    font-size: 20px;
+    line-height: 24px;
+}
+body{
+    background: #854836;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
